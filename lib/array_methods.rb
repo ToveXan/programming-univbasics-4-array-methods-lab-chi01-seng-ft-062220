@@ -25,8 +25,10 @@ first_array = ["wow", "I", "am", "really", "learning", "arrays!"]
 using_first(first_array)
 
 def using_last(array)
-
+  array.last
 end
+last_array = ["wow", "I", "am", "really", "learning", "arrays!"]
+using_last(last_array)
 
 def using_size(array)
 
