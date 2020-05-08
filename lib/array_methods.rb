@@ -19,9 +19,11 @@ reverse_array = ["wow", "I", "am", "really", "learning", "arrays!"]
 using_reverse(reverse_array)
 
 def using_first(array)
-
+  array.first
 end
-array = ["wow", "I", "am", "really", "learning", "arrays!"]
+first_array = ["wow", "I", "am", "really", "learning", "arrays!"]
+using_first(first_array)
+
 def using_last(array)
 
 end
